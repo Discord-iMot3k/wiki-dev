@@ -1,7 +1,30 @@
-site_name: My Docs
+site_name: Test documentation iMot3k
+site_url: https://imot3k.slyc.ch
+copyright: Copyright &copy; 2024 - 2024 Discord iMot3k
+repo_url: https://github.com/Discord-iMot3k/wiki-dev
+
 theme:
   name: material
   language: fr
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.prune
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+  icon:
+    logo: fontawesome/solid/wheelchair-move
+    edit: material/pencil 
+    view: material/eye
   palette:
     # Palette toggle pour le mode automatique
     - media: "(prefers-color-scheme)"
@@ -20,3 +43,13 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Basculer selon la préférence système
+
+plugins:
+  - privacy
+  - search
+  - blog
+  - tags:
+      tags_file: tags.md
+
+extra:
+  generator: false
