@@ -1,0 +1,22 @@
+site_name: My Docs
+theme:
+  name: material
+  language: fr
+  palette:
+    # Palette toggle pour le mode automatique
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Basculer en mode clair
+    # Palette toggle pour le mode clair
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Basculer en mode sombre
+    # Palette toggle pour le mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Basculer selon la préférence système
