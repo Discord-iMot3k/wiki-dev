@@ -50,6 +50,29 @@ plugins:
   - blog
   - tags:
       tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+  # - offline
+  - git-committers:
+      repository: "Discord-iMot3k/wiki-dev"
+      branch: master
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.blocks.caption
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  
 
 extra:
   generator: false
