@@ -22,7 +22,7 @@ Donc comme expliquer, je pars sur Fedora 40
 
 [Fedora Cloud](https://fedoraproject.org/cloud/download/)
 
-![Image non titrée](../assets/Untitled.png)
+![Image non titrée](assets/Untitled.png)
 
 Je vais donc prendre l’image “Fedora Cloud Base 40” au format Qcow2.
 
